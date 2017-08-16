@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1">
+
+        <item android:id="@+id/navigationMenuCurrentTrip"
+            android:title="Current Trip"
+            android:icon="@drawable/current_trip"/>
+
+        <item android:id="@+id/navigationMenuPreviousTrip"
+            android:title="Previous Trip"
+            android:icon="@drawable/flight_icon"/>
+
+        <item android:id="@+id/navigationMenuSettings"
+            android:title="Settings"
+            android:icon="@drawable/settings_icon"/>
+
+        <item android:id="@+id/navigationMenuAbout"
+            android:title="About"
+            android:icon="@drawable/about_icon"/>
+
+    </group>
+
+</menu>

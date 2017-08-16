@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Show in Detail"
+        android:id="@+id/expensesMenuShowInDetail"/>
+    <item android:title="Show Category Wise"
+        android:id="@+id/expensesMenuShowCategoryWise"/>
+    <item android:title="Show Date Wise"
+        android:id="@+id/expensesMenuShowDateWise"/>
+    <item android:title="Bar Graph Representation"
+        android:id="@+id/expensesMenuBarGraphRepresentation"
+        android:icon="@drawable/pie_icon"
+        android:showAsAction="always" />
+    <item android:title="Add Expense"
+        android:id="@+id/expensesMenuAddExpense"
+        android:icon="@drawable/add_icon"
+        android:showAsAction="always"
+        android:visible="true"/>
+
+</menu>

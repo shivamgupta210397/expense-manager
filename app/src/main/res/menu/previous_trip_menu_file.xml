@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="barGraphRepresentation"
+        android:id="@+id/previousTripMenuBarGraphRepresentation"
+        android:icon="@drawable/pie_icon"
+        android:showAsAction="always"/>
+
+    <item android:title="delete"
+        android:id="@+id/previousTripMenuDelete"
+        android:icon="@drawable/delete_icon"
+        android:showAsAction="always"/>
+
+</menu>

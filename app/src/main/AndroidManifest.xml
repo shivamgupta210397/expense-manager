@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shivam.expensemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/SplashScreenActivityTheme" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".PreviousTripActivity" />
+        <activity android:name=".NewTripActivity" />
+        <activity
+            android:name=".NewTripConfirmationActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".ExpensesActivity" />
+        <activity android:name=".AddExpenseActivity" />
+        <activity android:name=".CategoryWiseExpenseActivity" />
+        <activity android:name=".DateWiseExpenseActivity" />
+        <activity android:name=".CurrentTripActivity" />
+        <activity android:name=".PreviousTrip1Activity" />
+        <activity android:name=".PreviousTrip2Activity" />
+        <activity android:name=".SecurityCheckActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SetUsernameActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity
+            android:name=".SetPinActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".LoginPageActivity" />
+        <activity
+            android:name=".BarChartRepresentationActivity"
+            android:label="@string/title_activity_bar_chart_representation"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>

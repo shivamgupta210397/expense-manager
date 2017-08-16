@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shivam.expensemanager.LoginPageActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/app_icon"
+        android:alpha="0.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:id="@+id/loginPageLoginTextView"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name:"
+        android:textSize="25sp"
+        android:id="@+id/loginPageUsernameTextView"
+        android:layout_below="@id/loginPageLoginTextView"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginPageUsernameTextView"
+        android:id="@+id/loginPageUsernameEditText"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:"
+        android:textSize="25sp"
+        android:id="@+id/loginPagePhoneNumberTextView"
+        android:layout_below="@id/loginPageUsernameEditText"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginPagePhoneNumberTextView"
+        android:id="@+id/loginPagePhoneNumberEditText"
+        android:inputType="number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/loginPagePhoneNumberEditText"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="40dp"
+       android:text="Login"
+       android:id="@+id/loginPageloginButton"/>
+
+</RelativeLayout>

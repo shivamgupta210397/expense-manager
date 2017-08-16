@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Expense Manager</string>
+    <string name="app_info">Expense Manager is an app to manage your expense while you are on a trip. It covers most of the common expense categories and provides various other features like viewing the expense in three different ways: as a list, category wise and date wise. A graphical respresentation is also available for every trip. Once you have finished a trip it goes into the previous trip section where you can see all of your previous trips and details about the trip like start date, end date, money left, money spent etc:. You can delete any trips whenever you want. A summary of total trips and total money spent is provided in the top of the sidebar. Pin locking is also available in the settings to protect your app, you can disable it in the settings.</string>
+    <string name="title_activity_bar_graph_representation">BarGraphRepresentationActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bar_chart_representation">BarChartRepresentationActivity</string>
+</resources>
